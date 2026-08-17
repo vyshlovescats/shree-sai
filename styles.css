@@ -82,6 +82,9 @@ body{
 .btn-outline{background:transparent;border:1px solid rgba(15,23,42,0.06);color:var(--accent-blue)}
 .hero-highlights{display:flex;gap:12px;list-style:none;padding:0;margin:18px 0 0;color:var(--muted);flex-wrap:wrap}
 
+.hero-badges{margin:8px 0}
+.badge{display:inline-block;background:linear-gradient(90deg,var(--accent-purple),var(--accent-purple-2));color:white;padding:6px 10px;border-radius:999px;font-weight:700;font-size:14px}
+
 /* Hero images container */
 .hero-images{
   display:flex;
@@ -124,6 +127,12 @@ body{
 .features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:18px}
 .feature{background:#fff;border-radius:12px;padding:18px;border:1px solid rgba(15,23,42,0.04);text-align:center}
 
+/* Reviews */
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.review{background:#fff;border-radius:12px;padding:18px;border:1px solid rgba(15,23,42,0.04);box-shadow:var(--card-shadow)}
+.stars{color:#FBBF24;font-size:18px;font-weight:800;margin-bottom:8px}
+.review .quote{color:var(--muted);margin-bottom:8px}
+
 /* Gallery */
 .gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
 .gallery-item{background:#fff;border-radius:10px;padding:8px;border:1px solid rgba(15,23,42,0.04)}
@@ -133,7 +142,7 @@ body{
 /* Contact */
 .contact-grid{display:grid;grid-template-columns:1fr 420px;gap:20px;align-items:start}
 .contact-list{list-style:none;padding:0;margin:16px 0;color:var(--muted)}
-.map-placeholder{margin-top:12px;border-radius:10px;overflow:hidden;border:1px solid rgba(15,23,42,0.04)}
+.map-embed{margin-top:12px;border-radius:10px;overflow:hidden;border:1px solid rgba(15,23,42,0.04)}
 
 /* Inquiry form */
 .inquiry-card form label{display:block;margin-bottom:12px;font-weight:600;color:var(--muted)}
