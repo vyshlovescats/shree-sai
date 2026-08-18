@@ -13,10 +13,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#" aria-label="Shree Sai Motor Training School">
-        <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <circle cx="12" cy="12" r="10" fill="#5B21B6"></circle>
-          <text x="12" y="16" text-anchor="middle" font-size="10" fill="#fff" font-family="Inter, sans-serif" font-weight="700">SS</text>
-        </svg>
+        <!-- using your uploaded logo file -->
+        <img src="ganesha.logo.png" alt="Shree Sai logo" width="40" height="40" style="border-radius:6px">
         <span class="brand-text">Shree Sai Motor Training School</span>
       </a>
 
@@ -32,7 +30,7 @@
       </nav>
 
       <div class="header-actions">
-        <!-- Default contact number is now the third one you provided: 8355911084 (shown first) -->
+        <!-- Default contact number is 8355911084 -->
         <a class="call" href="tel:8355911084" aria-label="Call 8355911084">Call: 8355911084</a>
         <a class="call" href="tel:9821578854" aria-label="Call 9821578854">Call: 9821578854</a>
         <a class="call" href="tel:9820738854" aria-label="Call 9820738854">Call: 9820738854</a>
@@ -56,7 +54,7 @@
           </div>
 
           <div class="hero-ctas">
-            <!-- Primary CTA uses 8355911084 as requested -->
+            <!-- Primary CTA uses 8355911084 -->
             <a class="btn btn-primary" href="tel:8355911084">Call Now: 8355911084</a>
           </div>
 
@@ -67,14 +65,22 @@
         </div>
 
         <div class="hero-visual" aria-hidden="true">
-          <!-- Use images placed in assets/ (bike.png and scooty.png are in the repo) -->
+          <!-- Show logo + bike + car + scooty using files you uploaded to the repo root -->
           <div class="hero-images">
+            <div class="hero-image hero-image--logo" style="width:70px;height:70px;display:flex;align-items:center;justify-content:center;background:transparent;box-shadow:none;">
+              <img src="ganesha.logo.png" alt="Shree Sai logo" loading="lazy" style="width:56px;height:56px;">
+            </div>
+
             <div class="hero-image hero-image--bike">
-              <img src="assets/bike.png" alt="Training bike" loading="lazy">
+              <img src="bike.png" alt="Training bike" loading="lazy">
+            </div>
+
+            <div class="hero-image hero-image--car">
+              <img src="car.webp" alt="Training car" loading="lazy">
             </div>
 
             <div class="hero-image hero-image--scooty">
-              <img src="assets/scooty.png" alt="Purple scooty" loading="lazy">
+              <img src="scooty.png" alt="Purple scooty" loading="lazy">
             </div>
           </div>
         </div>
